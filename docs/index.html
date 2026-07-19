@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" type="image/png" href="src/icon.png">
+    <title>冬 (fuyu)</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="scaling.css">
+
+    <script src="index.js" defer></script>
+    <script src="uptime.js" defer></script>
+</head>
+
+<body>
+    <div id="left">
+        <div style="display: flex; flex-direction: column; text-align: center; margin-bottom: 1rem;">
+            <h1>Welcome to my <br style="display: none;"><i style="font-size: 120%; font-family: Yuyu;">petit
+                    espace</i> ✌️</h1>
+            <p style="margin: 0;">I host a variety of services for myself,</p>
+            <p style="margin: 0;">feel free to check them out!</p>
+        </div>
+
+        <div class="card bg">
+            <h2 style="margin-bottom: 0.5rem;">► My Server ~ „inari”</h2>
+            <div class="sider">
+                <img src="src/q51b.png">
+                <div style="text-align: left; width: fit-content;">
+                    <p style="display: flex; align-items: center;">
+                        <svg style="margin-right: 0.5rem;">
+                            <use xlink:href="src/icons.svg#fa-server">
+                        </svg>
+                        <a href="https://www.opencompute.org/documents/quantagrid-d51b-1u-specification">Quantagrid
+                            D51B-1U</a>
+                    </p>
+
+                    <p style="display: flex; align-items: center;">
+                        <svg style="margin-right: 0.5rem;">
+                            <use xlink:href="src/icons.svg#fa-microchip">
+                        </svg>
+                        <a
+                            href="https://www.intel.com/content/www/us/en/products/sku/92986/intel-xeon-processor-e52620-v4-20m-cache-2-10-ghz/specifications.html">
+                            Intel Xeon E5-2620 v4</a>　x2
+                    </p>
+
+                    <p style="display: flex; align-items: center;">
+                        <svg style="margin-right: 0.5rem;">
+                            <use xlink:href="src/icons.svg#fa-microchip">
+                        </svg>
+                        <a
+                            href="https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/solutions/resources/documents1/Tesla-P4-Product-Brief.pdf">NVIDIA
+                            Tesla P4</a>
+                    </p>
+
+                    <p style="display: flex; align-items: center;">
+                        <svg style="margin-right: 0.5rem;">
+                            <use xlink:href="src/icons.svg#fa-memory">
+                        </svg>
+                        64 GB ECC DDR4
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card bg">
+            <h2 style="margin-bottom: 0.5rem;">► Software Stack</h2>
+            <div class="sider">
+                <img src="src/xcp-ng.png" style="margin-right: 1rem;">
+
+                <p id="list" style="min-width: 25%; margin-bottom: 0.5rem;">
+                    Core:<br>
+                    ❄ <a href="https://xcp-ng.org/">XCP-ng</a><br>
+                    ❄ <a href="https://www.wireguard.com">WireGuard</a><br>
+                    ❄ <a href="https://www.truenas.com">TrueNAS</a><br>
+                    ❄ <a href="https://caddyserver.com">Caddy</a><br>
+                </p>
+
+                <div style="width: 2px; background-color: #333; margin: 0 1rem 0 1rem;"></div>
+
+                <p style="text-align: center; align-content: center;">
+                    The services marked with the code icon are made by me!</p>
+            </div>
+        </div>
+
+        <div class="card bg" style="margin: 0; margin-top: auto;">
+            <h2 style="margin-bottom: 0.5rem">► About Me</h2>
+            <div class="sider">
+                <div><img src="src/pfp.png"></div>
+                <div style="text-align: center; align-content: center;">
+                    <p>Embedded developer & student from Hungary<br>I have <b><i>way too many</i></b> hobbies and
+                        interests</p>
+
+                    <div style="margin-top: 1rem;">
+                        <a href="https://sam.fuyu.hu">
+                            <svg style="margin-right: 0.5rem;">
+                                <use xlink:href="src/icons.svg#fa-globe">
+                            </svg>
+                        </a>
+                        <a href="https://github.com/samthedev32">
+                            <svg style="margin-right: 0.5rem;">
+                                <use xlink:href="src/logos.svg#fa-github">
+                            </svg>
+                        </a>
+                        <a href="https://git.fuyu.hu/Sam">
+                            <svg style="margin-right: 0.5rem;">
+                                <use xlink:href="src/logos.svg#fa-forgejo">
+                            </svg>
+                        </a>
+                        <a href="mailto:sam@fuyu.hu">
+                            <svg style="margin-right: 0.5rem;">
+                                <use xlink:href="src/icons.svg#fa-envelope">
+                            </svg>
+                        </a>
+                        <a href="matrix:u/@sam:matrix.fuyu.hu">
+                            <svg style="margin-right: 0.5rem;">
+                                <use xlink:href="src/logos.svg#fa-matrix">
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="right">
+        <h2 style="width: 100%; margin-bottom: 1rem;">Some stuff I host you can try</h2>
+    </div>
+
+    <div id="tab">
+        <h2>Up: <b id="uptime">checking...</b></h2>
+    </div>
+</body>
+
+</html>
