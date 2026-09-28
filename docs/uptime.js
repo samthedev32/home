@@ -7,7 +7,7 @@ function formatUptime(days) {
 
     const weeks = Math.floor(days / 7);
     if (weeks === 1) return 'a week'
-    if (days < 30) return `${weeks} weeks`
+    if (days < 31) return `${weeks} weeks`
 
     const months = Math.floor(days / 31);
     if (months === 1) return 'a month'
